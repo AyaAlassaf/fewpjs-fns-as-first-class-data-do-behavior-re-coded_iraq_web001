@@ -9,8 +9,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
-function greet(timeString){
-  let str=timeString.split(":");
+function greet(time){
+  let str=time.split(":");
   let parsed=parseInt(str,2);
   if(parsed<= 12){
     return "Good Morning";
