@@ -18,7 +18,7 @@ function greet(timeString){
  else if (12>hour<17)
  return "Good Afternoon";
 }
-else if (hour>17){
+else (hour>17){
   return "Good Evening"
 }
 }
