@@ -18,6 +18,6 @@ function greet(time){
  return 'Good Afternoon';
 }}
 function displayMessage (txt){
-  document.getElementById('greeting').innerText=txt;
+  document.getElementById('#greeting').innerText=txt;
 }
 
