@@ -5,23 +5,19 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-/* End Given Code, don't edit above here...*/
-
-/* Write your implementation of greet() */
-/* Write your implementation of displayMessage() */
 function greet(time){
   let parsed=parseInt(time.split(":")[0]);
   
   if(parsed < 12){
-    return "Good Morning";
+    return 'Good Morning';
   }
   else if (parsed > 17){
-  return "Good Evening";
+  return 'Good Evening';
 }
  else {
- return "Good Afternoon";
+ return 'Good Afternoon';
 }}
-function displayMessage(txt){
+function displayMessage (txt){
   document.getElementById('greeting').innertext=txt;
 }
 
