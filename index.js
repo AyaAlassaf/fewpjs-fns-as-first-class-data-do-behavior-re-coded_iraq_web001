@@ -6,7 +6,7 @@ function handleClick(e) {
 }
 
 function greet(time){
-  let parsed=parseInt(time.split(":"),2);
+  let parsed=parseInt(time.split(":")[0]);
   
   if(parsed < 12){
     return 'Good Morning';
