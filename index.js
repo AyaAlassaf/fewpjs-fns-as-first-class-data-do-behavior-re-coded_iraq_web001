@@ -12,10 +12,10 @@ function greet(time){
     return 'Good Morning';
   }
   else if (parsed < 17){
-  return 'Good Evening';
+  return 'Good Evening Good Afternoon';
 }
  else {
- return 'Good Afternoon';
+ return '';
 }}
 function displayMessage (txt){
   document.getElementById('greeting').innerText=txt;
