@@ -15,12 +15,13 @@ function greet(timeString){
   if(parsed< 12){
     return "Good Morning";
   }
+  else (str > 17){
+  return "Good Evening";
+}
  else if (12>str<17){
  return "Good Afternoon";
 }
-else (str > 17){
-  return "Good Evening";
-}
+
 }
 function displayMessage(txt){
   document.getElementById("#greeting").innertext=txt;
