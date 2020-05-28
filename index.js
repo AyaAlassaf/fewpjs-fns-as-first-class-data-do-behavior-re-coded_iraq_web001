@@ -17,7 +17,7 @@ function greet(time){
  else {
  return 'Good Afternoon';
 }}
-function displayMessage (txt){
+function displayMessage (txt="message"){
   document.getElementById('greeting').innerText=txt;
 }
 
