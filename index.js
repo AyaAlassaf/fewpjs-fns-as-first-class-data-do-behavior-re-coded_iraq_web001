@@ -23,6 +23,6 @@ else (str > 17){
 }
 }
 function displayMessage(txt){
-  document.getElementById("#greeting").innerte
+  document.getElementById("#greeting").innertext='txt';
 }
 
