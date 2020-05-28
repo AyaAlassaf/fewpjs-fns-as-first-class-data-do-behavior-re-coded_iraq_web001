@@ -22,6 +22,6 @@ function greet(time){
  return "Good Afternoon";
 }}
 function displayMessage(txt){
-  document.getElementById("greeting").innertext=txt;
+  document.getElementById('greeting').innertext=txt;
 }
 
